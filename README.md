@@ -4,7 +4,7 @@ GitHub Actions を使ってみるリポジトリ。
 
 ## 内容
 
-master ブランチへのプルリクエスト時に `go test` を行う。
+main ブランチへのプルリクエスト時に `go test` を行う。
 
 ## 設定ファイル
 
