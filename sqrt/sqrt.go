@@ -1,15 +1,11 @@
 package sqrt
 
-import (
-	"math"
-)
-
 // 平方根を返す関数
 func Sqrt(x float64) float64 {
 
 	// 負の数の場合はNaNを返す
 	if x < 0 {
-		return math.NaN()
+		return 0
 	}
 
 	// ニュートン法で近似値計算
